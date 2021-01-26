@@ -1,0 +1,56 @@
+#active {
+  color:red;
+}
+.saw {
+  color:white;
+}
+a {
+  color:gray;
+  text-decoration: none;
+}
+h1 {
+  color: white;
+  font-size: 30px;
+  border-bottom: 1px solid white;
+  margin: 0px;
+  padding: 20px;
+}
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+ol {
+  font-size: 17px;
+  border-right:1px solid white;
+  width: 160px;
+  margin: 0;
+  padding: 20px;
+}
+ul {
+  color: gray;
+  padding-left: 15px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+#grid ol {
+  padding-left: 35px;
+}
+#grid #article {
+  padding-left: 20px;
+  padding-right: 5px;
+  font-size: 17px
+}
+@media(max-width: 750px) {
+  #grid {
+    display: block;
+  }
+  ol {
+    border-right: none;
+  }
+  #grid #article {
+    border-top: 1px dashed white;
+  }
+}
