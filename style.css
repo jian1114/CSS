@@ -18,10 +18,9 @@ h1 {
 body {
   background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 }
 ol {
-  font-size: 17px;
   border-right:1px solid white;
   width: 160px;
   margin: 0;
@@ -41,7 +40,6 @@ ul {
 #grid #article {
   padding-left: 20px;
   padding-right: 5px;
-  font-size: 17px
 }
 @media(max-width: 750px) {
   #grid {
