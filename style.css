@@ -13,11 +13,13 @@ h1 {
   border-bottom: 1px solid white;
   margin: 0px;
   padding: 20px;
+  font-family: 'Londrina Solid', cursive;
 }
 body {
   background-color: black;
   color: white;
   font-size: 17px;
+  font-family: 'Jua', sans-serif;
 }
 ol {
   border-right:1px solid white;
@@ -50,4 +52,5 @@ ul {
   #grid #article {
     border-top: 1px dashed white;
   }
+
 }
